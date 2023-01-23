@@ -1,51 +1,28 @@
-# Sveltekit Tailwind CSS Ecommerce Store
 
-An Open Source Ecommerce Shop build with awesome [Sveltekit](https://kit.svelte.dev/) and [Tailwind CSS](https://tailwindcss.com/)
+# Svelte ecommerce App
 
-![Branch stable](https://img.shields.io/badge/stable%20branch-master-black.svg)
-![Javascript](https://img.shields.io/badge/Javascript-black)
-![Svelte](https://img.shields.io/badge/Svelte-black)
+### Follow these steps to try out Zipy
 
-## [Check out the Demo](https://master--nimble-zabaione-e0b961.netlify.app/)  
-  
-![Alt text](./shop-screenshot.png)
-
-# Features
-
-- SvelteKit as js Framework (mix of SSR and SPA)
-- Tailwind as css Framework
-- 🚀 Superfast
-- Full responsive -> in Mobile, Tablet and Web Browser Size
-- Smooth and cool Animations
-- Nice intuitive Cart Design
-- Form Validation for shipping and billing with yup and svelte-forms-lib
-- Usage of Stores and localStorage
-- Carousel (Slider) for Products (visible in tablet screensize)
-- i18n implementation (English and German Language available)
-- Minimalistic Black and White UI Design
-  
-# Things that can be improved
-
-- better coloring and layout (I am not a good UI Designer)
-- payment gateway integration (paypal or stripe etc)
-- headless cms integration (I tried shopify but I really disliked that you have to use their checkout page)
-
-# Getting started
-
-### Install and run SvelteKit with the commands below:
-
+1. Clone this repository
+2. Navigate to the app's directory and run the command 
 ```bash
-git clone https://github.com/martykuentzel/sveltekit-tailwind-ecommerce.git
-cd sveltekit-tailwind-ecommerce
 npm install
-npm run dev
-
 ```
-  
-OR
+3. Add the your project script found in project settings of your **Zipy** account in app.html file.
+    
+4. Run the command
+```bash
+npm run dev
+```
 
-Just ...
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/martykuentzel/sveltekit-tailwind-ecommerce)
+5. Clone and run [Error Thrower](https://github.com/sandeshmurdia/Error-thrower)(which will throw random network errors for your app) and run it. 
 
-And that's it!
+6. Perform some actions in the App and start seeing your session on your **Zipy Dashboard**.
+
+
+### To generate errors go to products from navbar and 
+1. Add product to wishlist.
+2. Use increment and decrement of product multiple time.
+3. Click on checkout.
+4. Follow steps.
