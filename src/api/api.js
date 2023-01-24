@@ -5,6 +5,7 @@ export async function throwerror(status) {
         headers: {
           "Content-type": "application/json",
           token: "kjbdfhdh.djbr.scrff",
+        
         },
         
       });
